@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Api(value = "ribbon测试接口", description = "用于负载均衡测试")
-@RequestMapping(value = "/serverone/ribbon")
-public interface RibbonTestApi {
+@RequestMapping(value = "/serverone/zuul")
+public interface ZuulTestApi {
 
     int SUCCESS_CODE = 200;
 

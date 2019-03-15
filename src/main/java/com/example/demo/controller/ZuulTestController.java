@@ -1,10 +1,10 @@
 package com.example.demo.controller;
 
-import com.example.demo.api.RibbonTestApi;
+import com.example.demo.api.ZuulTestApi;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class RibbonTestController implements RibbonTestApi {
+public class ZuulTestController implements ZuulTestApi {
 
     @Override
     public String test() {
